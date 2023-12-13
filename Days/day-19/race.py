@@ -9,7 +9,6 @@ colors= ["red","blue","orange","purple","green","yellow"]
 y_position = [-100,-50,0,50,100,150]
 all_turtles = []
 
-
 for turtle_index in range (0,6):
     new_turtle = Turtle(shape="turtle")
     new_turtle.color(colors[turtle_index])
@@ -17,8 +16,6 @@ for turtle_index in range (0,6):
     new_turtle.goto(x=-230,y=y_position[turtle_index])
     all_turtles.append(new_turtle)
     
-
-
 if user_bet:
     is_race_on = True
 
